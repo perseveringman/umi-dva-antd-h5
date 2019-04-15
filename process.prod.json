@@ -1,0 +1,13 @@
+{
+  "name": "golemon_web",
+  "script": "./server.js",
+  "exec_mode" : "fork",
+  "watch": false,
+  "ignore_watch": ["tmp"],
+  "env": {
+    "PORT": 8008
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
